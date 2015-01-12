@@ -2,9 +2,7 @@
 
 ![screenshot](http://i.imgur.com/pda21KY.png)
 
-[![NPM version](https://badge.fury.io/js/pod.png)](http://badge.fury.io/js/pod) [![Build Status](https://travis-ci.org/yyx990803/pod.png?branch=master)](https://travis-ci.org/yyx990803/pod)
-
-Core API JSCoverage: **95.52%**
+## Forked from https://github.com/yyx990803/pod to support Bitbucket alongwith Github.
 
 Pod simplifies the workflow of setting up, updating and managing multiple Node.js apps on a Linux server. Perfect for hosting personal Node stuff on a VPS. There are essentially two parts: 1. `git push` deploy (by using git hooks) and 2. process management (by using [pm2](https://github.com/Unitech/pm2))
 
@@ -112,7 +110,7 @@ The first time you run `pod` it will ask you where you want to put your stuff. T
 $ pod web [stop|restart|status]
 ```
 
-This command will start the pod web service, by default at port 19999, which provides several functionalities:
+This command will start the pod web service, by default at port 9999, which provides several functionalities:
 
 - `/` : a web interface that displays current apps status.
 - `/json` : returns app status data in json format.
